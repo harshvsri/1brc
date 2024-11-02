@@ -3,11 +3,10 @@
 Welcome to the **1MRC (1 Million Rows Challenge)**! 🚀 This challenge is designed to test your data handling, processing skills, and performance optimization knowledge by parsing, analyzing, and extracting insights from massive datasets. Let’s see how you handle 1 million rows of data!
 
 [![1mrc.png](https://i.postimg.cc/CLb9RLP9/1mrc.png)](https://postimg.cc/1f5vTPZK)
-### Device Specs:
-[![neo.png](https://i.postimg.cc/13Xmwqkf/neo.png)](https://postimg.cc/BjWfGXQ0)
-
-
+### Device Information
+[![neo-min.png](https://i.postimg.cc/cCLr549H/neo-min.png)](https://postimg.cc/0MhkzxqR)
 ## 📋 Challenge Overview
+
 
 The 1MRC Challenge is simple yet demanding. You’ll be working with a large dataset, handling tasks like chunked file reading, parallel processing, and optimized memory usage. Your goal is to process the data as efficiently as possible within the limits of your system.
 
