@@ -23,26 +23,6 @@ The 1MRC Challenge is simple yet demanding. You’ll be working with a large dat
 3. **Optimization**: Aim for maximum performance in terms of both memory and speed.
 4. **Documentation**: Document your approach, techniques used, and any challenges faced.
 
-## 📅 Timeline
-
-- **Challenge Start Date**: 2 Nov 2024
-- **Challenge End Date**: 31 Dec 2024
-
-## 🏆 How to Participate
-
-1. Fork this repository to your GitHub account.
-2. Clone the repository and work on the challenge locally.
-3. Once complete, push your changes to your forked repository.
-4. Submit a pull request to this repository with your solution before the deadline.
-
-## 🤖 Evaluation Criteria
-
-- **Efficiency**: How quickly and efficiently does your code process 1 million rows?
-- **Optimization**: Effective use of techniques like chunking, parallel processing, and memory management.
-- **Documentation**: Clear and detailed documentation explaining your approach.
-- **Code Quality**: Clean, readable, and well-documented code.
-
 ---
 
 I am really excited to see how you tackle the 1MRC Challenge! Good luck and happy coding! 😊
-
