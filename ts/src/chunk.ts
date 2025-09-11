@@ -17,7 +17,7 @@ export async function adjustChunk(chunks: number[], filePath: string) {
             continue;
         }
 
-        // File I/O
+        // File
         const file = await Deno.open(filePath, { read: true });
         const buffer = new Uint8Array(chunkSize);
         await file.seek(offset, Deno.SeekMode.Start);

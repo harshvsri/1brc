@@ -46,7 +46,7 @@ pub fn adjust_chunk_offset(path: &str, chunks: &mut Vec<u64>) {
     }
 }
 
-pub fn _read_chunks(path: &str, chunks: &mut Vec<u64>) {
+pub fn read_chunks(path: &str, chunks: &mut Vec<u64>) {
     let mut file = File::open(path).expect(
         "File name should be valid with proper permissions and must be present in root dir.",
     );

@@ -69,6 +69,9 @@ async function main() {
     const chunks = chunkify(fileSize, CPU_COUNT);
     await adjustChunk(chunks, filePath);
     const globalTempMap = await execTaskInParallel(chunks, filePath);
-    console.log(globalTempMap);
+
+    for (const [key, { min, max, sum, count }] of globalTempMap) {
+        console.log(`${key}: min(${min}) max(${max}) average(${Math.floor(sum / count)})`)
+    }
 }
 main();
