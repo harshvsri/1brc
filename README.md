@@ -1,11 +1,25 @@
-# 1BRC Challenge
+# 1BRC - A Polyglot Adventure
 
-Welcome to the **1BRC (1 Billion Rows Challenge)**! 🚀 
-This challenge was designed to test your data handling, processing skills, and performance optimization knowledge by parsing, analyzing, and extracting insights from massive datasets.
+My attempt at tackling the [1 Billion Row Challenge](https://github.com/gunnarmorling/1brc) across multiple languages - because why solve it once when you can solve it multiple times?
 
-## Challenge Overview
+## What is 1BRC?
 
-This challenge is simple yet demanding. You’ll be working with a large dataset, handling tasks like chunked file reading, parallel processing, and optimized memory usage. Your goal is to process the data as efficiently as possible within the limits of your system.
+The 1 Billion Row Challenge is a fun exploration of how fast we can aggregate one billion rows of temperature data. The task: parse a file containing temperature measurements and compute the min, mean, and max temperature per weather station.
 
-- Parse a billion rows from a CSV file and perform specified operations on the data (such as aggregation, filtering, or transformations).
-- Optimize your code for performance by chunking, parallel processing, or other means.
+## Implementations
+
+- **Go** - `go/`
+- **Python** - `python/`
+- **Rust** - `rust/`
+- **TypeScript (Deno)** - `ts/`
+
+## Generating Test Data
+
+The test data generator is located in `.data/CreateMeasurements.java`.
+
+```bash
+cd .data
+java CreateMeasurements.java 1000000000
+```
+
+This will generate approximately **14 GB** of data, the output file will be created in the `.data/` directory.
