@@ -13,7 +13,7 @@ The 1 Billion Row Challenge is a fun exploration of how fast we can aggregate on
 - **Rust** - `rust/`
 - **TypeScript (Deno)** - `ts/`
 
-## Generating Test Data
+## Generating Data
 
 The test data generator is located in `.data/CreateMeasurements.java`.
 
